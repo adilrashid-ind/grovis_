@@ -5,7 +5,6 @@ exports.createProduct = (req, res) => {
 
   const product = new Product({
     productName,
-
     price,
     quantity,
     description,
